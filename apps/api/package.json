@@ -1,0 +1,36 @@
+{
+  "name": "@first-chair/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "eval": "tsx src/eval/runner.ts",
+    "build:embeddings": "tsx scripts/build-embeddings.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.93.0",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/multipart": "^10.0.0",
+    "@first-chair/shared": "*",
+    "@google/genai": "^1.52.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "mongodb": "^6.8.0",
+    "openai": "^6.36.0",
+    "pino": "^9.3.1",
+    "wink-bm25-text-search": "^3.0.0",
+    "wink-eng-lite-web-model": "^1.7.2",
+    "wink-nlp": "^2.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  }
+}

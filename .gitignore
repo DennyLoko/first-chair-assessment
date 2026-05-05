@@ -1,1 +1,8 @@
 .omc/
+node_modules/
+dist/
+.env
+apps/api/.env
+*.local
+coverage/
+eval/results/*.json

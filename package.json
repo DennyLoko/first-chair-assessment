@@ -1,0 +1,19 @@
+{
+  "name": "first-chair",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/api & npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=packages/shared && npm run build --workspace=apps/api && npm run build --workspace=apps/web",
+    "test": "npm run test --workspaces --if-present",
+    "eval": "npm run eval --workspace=apps/api",
+    "build:embeddings": "npm run build:embeddings --workspace=apps/api"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
