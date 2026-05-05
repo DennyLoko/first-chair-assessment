@@ -1,0 +1,24 @@
+{
+  "id": "002-chesterfield-sofa",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
+    "localPath": "eval/fixtures/_images/002.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Sofas" },
+    { "type": "Chesterfield Sofa" }
+  ]},
+  "expectedMatchIds": [
+    "698aec0d885390de6bb404be",
+    "6989d5a276ef46c1946f7f54",
+    "6989d5a276ef46c1946f7fb8",
+    "6989d5a276ef46c1946f8007",
+    "6989d5a276ef46c1946f8066",
+    "698aec0d885390de6bb404c1"
+  ],
+  "judgedRelevantBecause": "Chesterfield sofas with rolled arms and button-tufting match the distinctive style in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

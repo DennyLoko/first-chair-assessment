@@ -1,0 +1,24 @@
+{
+  "id": "009-rocking-chair",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&q=80",
+    "localPath": "eval/fixtures/_images/009.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Chairs" },
+    { "type": "Rocking Chair" }
+  ]},
+  "expectedMatchIds": [
+    "6989d5a276ef46c1946f809b",
+    "698b064991c8d5b76d3b7b35",
+    "698b064991c8d5b76d3b799a",
+    "698b064991c8d5b76d3b7bdb",
+    "6989d492d0ca8969ace9fe6e",
+    "698aec0d885390de6bb404f4"
+  ],
+  "judgedRelevantBecause": "Rocking chairs with curved runners match the classic rocking chair silhouette in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

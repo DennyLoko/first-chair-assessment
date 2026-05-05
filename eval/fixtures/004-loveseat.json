@@ -1,0 +1,24 @@
+{
+  "id": "004-loveseat",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?w=800&q=80",
+    "localPath": "eval/fixtures/_images/004.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Sofas" },
+    { "type": "Loveseat" }
+  ]},
+  "expectedMatchIds": [
+    "698aec0d885390de6bb404ac",
+    "6989d5a276ef46c1946f80fb",
+    "6989d5a276ef46c1946f7f52",
+    "698aec0d885390de6bb404aa",
+    "698b064991c8d5b76d3b7c41",
+    "6989d492d0ca8969ace9fe19"
+  ],
+  "judgedRelevantBecause": "Two-seat loveseats match a compact sofa image suited for small living spaces.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

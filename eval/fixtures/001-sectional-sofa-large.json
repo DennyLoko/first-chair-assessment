@@ -1,0 +1,25 @@
+{
+  "id": "001-sectional-sofa-large",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+    "localPath": "eval/fixtures/_images/001.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Sofas" },
+    { "type": "Sectional Sofa" },
+    { "width": { "$gte": 250 } }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7d56",
+    "698b064991c8d5b76d3b7a88",
+    "6989d5a276ef46c1946f8033",
+    "6989d492d0ca8969ace9fdf7",
+    "698b064991c8d5b76d3b79c4",
+    "6989d492d0ca8969ace9fd22"
+  ],
+  "judgedRelevantBecause": "Large sectional sofas wider than 250cm match an image of an oversized L-shaped couch.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "secondRater": null
+}

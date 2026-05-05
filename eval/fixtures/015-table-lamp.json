@@ -1,0 +1,24 @@
+{
+  "id": "015-table-lamp",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80",
+    "localPath": "eval/fixtures/_images/015.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Lighting" },
+    { "type": "Table Lamp" }
+  ]},
+  "expectedMatchIds": [
+    "6989d492d0ca8969ace9fd6a",
+    "6989d492d0ca8969ace9fe14",
+    "6989d492d0ca8969ace9fd17",
+    "6989d492d0ca8969ace9fe4c",
+    "6989d5a276ef46c1946f80bc",
+    "698aec0d885390de6bb4064f"
+  ],
+  "judgedRelevantBecause": "Table lamps with a base and shade match the bedside or desk lamp in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "010-large-dining-table",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80",
+    "localPath": "eval/fixtures/_images/010.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Tables" },
+    { "type": "Dining Table" },
+    { "width": { "$gte": 180 } }
+  ]},
+  "expectedMatchIds": [
+    "6989d492d0ca8969ace9fdd2",
+    "6989d492d0ca8969ace9fca9",
+    "6989d5a276ef46c1946f7f96",
+    "6989d5a276ef46c1946f7fa9",
+    "698b064991c8d5b76d3b7a6a",
+    "6989d5a276ef46c1946f7fce"
+  ],
+  "judgedRelevantBecause": "Large dining tables at least 180cm wide match an image of a long family dining table.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "secondRater": null
+}

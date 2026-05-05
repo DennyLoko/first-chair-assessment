@@ -1,0 +1,24 @@
+{
+  "id": "021-storage-cabinet",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80",
+    "localPath": "eval/fixtures/_images/021.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Cabinets" },
+    { "type": "Storage Cabinet" }
+  ]},
+  "expectedMatchIds": [
+    "6989d492d0ca8969ace9fd3d",
+    "698b064991c8d5b76d3b7b2a",
+    "6989d492d0ca8969ace9fccf",
+    "6989d492d0ca8969ace9fd36",
+    "6989d492d0ca8969ace9fe03",
+    "6989d5a276ef46c1946f7f6f"
+  ],
+  "judgedRelevantBecause": "Multi-door storage cabinets match a closed-front cabinet with concealed shelving in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

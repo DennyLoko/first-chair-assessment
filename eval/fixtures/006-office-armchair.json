@@ -1,0 +1,24 @@
+{
+  "id": "006-office-armchair",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+    "localPath": "eval/fixtures/_images/006.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Chairs" },
+    { "type": "Armchair" }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7987",
+    "698b064991c8d5b76d3b798d",
+    "698b064991c8d5b76d3b79c8",
+    "698aec0d885390de6bb404d3",
+    "698aec0d885390de6bb404d7",
+    "6989d492d0ca8969ace9fcaa"
+  ],
+  "judgedRelevantBecause": "Upholstered armchairs with padded arms match a classic lounge chair image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "018-tall-bookshelf",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    "localPath": "eval/fixtures/_images/018.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Bookshelves" },
+    { "type": "Tall Bookshelf" }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7c99",
+    "6989d492d0ca8969ace9fe49",
+    "698b064991c8d5b76d3b7b00",
+    "698aec0d885390de6bb405b6",
+    "698b064991c8d5b76d3b7cd1",
+    "698b064991c8d5b76d3b7ab3"
+  ],
+  "judgedRelevantBecause": "Tall vertical bookshelves match a floor-to-near-ceiling shelving unit in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

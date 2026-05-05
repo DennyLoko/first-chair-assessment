@@ -1,0 +1,24 @@
+{
+  "id": "022-platform-bed",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=800&q=80",
+    "localPath": "eval/fixtures/_images/022.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Beds" },
+    { "type": "Platform Bed" }
+  ]},
+  "expectedMatchIds": [
+    "6989d492d0ca8969ace9fd99",
+    "698aec0d885390de6bb4056f",
+    "698b064991c8d5b76d3b7cf9",
+    "698b064991c8d5b76d3b7bae",
+    "698b064991c8d5b76d3b7bd0",
+    "698aec0d885390de6bb40572"
+  ],
+  "judgedRelevantBecause": "Low platform beds without a box spring match the minimalist bed frame shown in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "014-executive-desk",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80",
+    "localPath": "eval/fixtures/_images/014.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Desks" },
+    { "type": "Executive Desk" }
+  ]},
+  "expectedMatchIds": [
+    "6989d492d0ca8969ace9fd0a",
+    "6989d492d0ca8969ace9fe4e",
+    "6989d5a276ef46c1946f800e",
+    "698b064991c8d5b76d3b7a29",
+    "698b064991c8d5b76d3b7c6d",
+    "6989d5a276ef46c1946f80dc"
+  ],
+  "judgedRelevantBecause": "Large executive desks with storage match an image of a wide professional office desk.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

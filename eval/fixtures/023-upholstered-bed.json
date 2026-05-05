@@ -1,0 +1,24 @@
+{
+  "id": "023-upholstered-bed",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+    "localPath": "eval/fixtures/_images/023.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Beds" },
+    { "type": { "$regex": "upholstered|panel|storage", "$options": "i" } }
+  ]},
+  "expectedMatchIds": [
+    "698aec0d885390de6bb4058a",
+    "698aec0d885390de6bb40584",
+    "698aec0d885390de6bb40585",
+    "6989d5a276ef46c1946f8017",
+    "698aec0d885390de6bb4058b",
+    "6989d492d0ca8969ace9fdc7"
+  ],
+  "judgedRelevantBecause": "Upholstered or storage beds with fabric headboards match the padded bed frame in the query image.",
+  "curatorNote": "Regex matched 'Storage Bed' type in the catalog; returned 6 results.",
+  "secondRater": null
+}

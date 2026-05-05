@@ -1,0 +1,24 @@
+{
+  "id": "019-wardrobe-hinged",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=800&q=80",
+    "localPath": "eval/fixtures/_images/019.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Wardrobes" },
+    { "type": "Hinged Door Wardrobe" }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7acb",
+    "698aec0d885390de6bb4067e",
+    "6989d5a276ef46c1946f802c",
+    "698b064991c8d5b76d3b7a5e",
+    "698aec0d885390de6bb4067d",
+    "698b064991c8d5b76d3b79cc"
+  ],
+  "judgedRelevantBecause": "Wardrobes with traditional hinged swing doors match the free-standing closet in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

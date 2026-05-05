@@ -1,0 +1,24 @@
+{
+  "id": "008-recliner",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80",
+    "localPath": "eval/fixtures/_images/008.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Chairs" },
+    { "type": "Recliner" }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7c92",
+    "698b064991c8d5b76d3b7a86",
+    "698b064991c8d5b76d3b7ced",
+    "698b064991c8d5b76d3b7b92",
+    "698aec0d885390de6bb404db",
+    "698b064991c8d5b76d3b7c59"
+  ],
+  "judgedRelevantBecause": "Recliner chairs with adjustable back and footrest match the query image of a reclining chair.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "017-pendant-light",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "localPath": "eval/fixtures/_images/017.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Lighting" },
+    { "type": "Pendant Light" }
+  ]},
+  "expectedMatchIds": [
+    "6989d5a276ef46c1946f7f61",
+    "698b064991c8d5b76d3b7b07",
+    "6989d492d0ca8969ace9fda1",
+    "698aec0d885390de6bb4065b",
+    "698aec0d885390de6bb40659",
+    "698b064991c8d5b76d3b7aed"
+  ],
+  "judgedRelevantBecause": "Hanging pendant lights match an overhead suspended light fixture in the query image.",
+  "curatorNote": "Used exact type 'Pendant Light' which matched; no regex fallback needed.",
+  "secondRater": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "020-low-tv-stand",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+    "localPath": "eval/fixtures/_images/020.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "TV Stands" },
+    { "type": "Low Profile TV Stand" }
+  ]},
+  "expectedMatchIds": [
+    "698aec0d885390de6bb405e9",
+    "698b064991c8d5b76d3b7bd4",
+    "698b064991c8d5b76d3b7af6",
+    "698b064991c8d5b76d3b7d54",
+    "698b064991c8d5b76d3b7c1e",
+    "6989d492d0ca8969ace9fce0"
+  ],
+  "judgedRelevantBecause": "Low-profile TV stands close to the floor match a minimal media console in the query image.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}

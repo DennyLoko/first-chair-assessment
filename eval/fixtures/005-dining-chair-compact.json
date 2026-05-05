@@ -1,0 +1,25 @@
+{
+  "id": "005-dining-chair-compact",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
+    "localPath": "eval/fixtures/_images/005.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Chairs" },
+    { "type": "Dining Chair" },
+    { "width": { "$lte": 55 } }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7999",
+    "698b064991c8d5b76d3b7cca",
+    "698b064991c8d5b76d3b7b34",
+    "6989d5a276ef46c1946f7f7b",
+    "698aec0d885390de6bb40504",
+    "698aec0d885390de6bb40507"
+  ],
+  "judgedRelevantBecause": "Compact dining chairs no wider than 55cm match a slender side chair image.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "secondRater": null
+}

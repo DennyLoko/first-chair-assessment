@@ -1,0 +1,24 @@
+{
+  "id": "011-coffee-table-rectangular",
+  "queryImage": {
+    "source": "external_public",
+    "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80",
+    "localPath": "eval/fixtures/_images/011.jpg"
+  },
+  "userQuery": null,
+  "manualFilter": { "$and": [
+    { "category": "Coffee Tables" },
+    { "type": "Rectangular Coffee Table" }
+  ]},
+  "expectedMatchIds": [
+    "698b064991c8d5b76d3b7b02",
+    "698b064991c8d5b76d3b7a74",
+    "6989d5a276ef46c1946f7f9a",
+    "698b064991c8d5b76d3b7a15",
+    "698b064991c8d5b76d3b7b8a",
+    "6989d492d0ca8969ace9fe29"
+  ],
+  "judgedRelevantBecause": "Rectangular coffee tables match a low rectangular table placed in front of a sofa.",
+  "curatorNote": "Filter returned >6; first 6 taken.",
+  "secondRater": null
+}
