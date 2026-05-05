@@ -5,7 +5,7 @@ interface AdminLoginProps {
   onLogin: (user: { username: string }) => void;
 }
 
-const VALID = { username: 'admin', password: 'atelier2025' };
+const VALID = { username: 'admin', password: 'atelier' };
 
 export default function AdminLogin({ onLogin }: AdminLoginProps) {
   const [username, setUsername] = useState('');
@@ -27,7 +27,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
       if (username.trim().toLowerCase() === VALID.username && password === VALID.password) {
         onLogin({ username: username.trim() });
       } else {
-        setError('Invalid credentials. Try admin / atelier2025.');
+        setError('Invalid credentials. Try admin / atelier.');
         setLoading(false);
       }
     }, 700);
@@ -154,7 +154,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
             <span className="hint-creds">
               <code>admin</code>
               <span style={{ color: 'var(--ink-3)' }}>/</span>
-              <code>atelier2025</code>
+              <code>atelier</code>
             </span>
           </div>
 
