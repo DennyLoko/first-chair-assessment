@@ -9,11 +9,12 @@ export const VlmJsonSchema = z.object({
   palette: z.array(z.string()),
   dims: z
     .object({
-      width: z.number().optional(),
-      height: z.number().optional(),
-      depth: z.number().optional(),
+      width: z.number().nullable().optional(),
+      height: z.number().nullable().optional(),
+      depth: z.number().nullable().optional(),
     })
-    .optional(),
+    .optional()
+    .nullable(),
   features: z.array(z.string()),
   caption: z.string(),
 });
@@ -100,7 +101,8 @@ export const FixtureSchema = z.object({
       agreement: z.number().min(0).max(1),
       disagreementNotes: z.string().optional(),
     })
-    .optional(),
+    .optional()
+    .nullable(),
 });
 
 export type Fixture = z.infer<typeof FixtureSchema>;
