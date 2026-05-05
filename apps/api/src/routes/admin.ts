@@ -1,3 +1,5 @@
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { FastifyInstance } from 'fastify';
 import { getParams, setParams } from '../config/params.js';
 import { runEval, getLastEvalResult } from '../eval/runner.js';
@@ -6,6 +8,9 @@ import { embeddingsArtifact } from '../data/embeddings.js';
 import { runSearch } from '../search/pipeline.js';
 import type { ProviderId } from '@first-chair/shared/types';
 import type { Fixture } from '@first-chair/shared/schemas';
+
+// admin.ts is at apps/api/src/routes/ — 4 levels up = project root
+const PROJECT_ROOT = join(dirname(fileURLToPath(import.meta.url)), '../../../../');
 
 export async function adminRoutes(app: FastifyInstance): Promise<void> {
   // Config endpoints — no session required (admin login at UI level is sufficient).
@@ -78,7 +83,7 @@ export async function adminRoutes(app: FastifyInstance): Promise<void> {
 
       const searchFn = async (fixture: Fixture) => {
         const imageData = fixture.queryImage.localPath
-          ? await import('node:fs/promises').then((fs) => fs.readFile(fixture.queryImage.localPath!))
+          ? await import('node:fs/promises').then((fs) => fs.readFile(join(PROJECT_ROOT, fixture.queryImage.localPath!)))
           : Buffer.alloc(0);
         const start = Date.now();
         const result = await runSearch(

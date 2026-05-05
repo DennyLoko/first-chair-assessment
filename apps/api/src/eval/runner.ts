@@ -7,6 +7,7 @@ import { FixtureSchema, JudgeOutputSchema } from '@first-chair/shared/schemas';
 import { JUDGE_PROMPT_SYSTEM, JUDGE_PROMPT_USER_TEMPLATE, JUDGE_PROMPT_VERSION } from './judge.js';
 import { aggregateMetrics, type EvalMetrics } from './metrics.js';
 import { getDb } from '../data/mongo.js';
+import { ObjectId } from 'mongodb';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const FIXTURES_DIR = join(__dirname, '../../../../eval/fixtures');
@@ -41,7 +42,7 @@ async function checkFreshness(fixture: Fixture): Promise<boolean> {
   const db = getDb();
   const expectedIds = fixture.expectedMatchIds;
   for (const id of expectedIds) {
-    const doc = await db.collection('products').findOne({ _id: id as unknown as import('mongodb').ObjectId });
+    const doc = await db.collection('products').findOne({ _id: new ObjectId(id) });
     if (!doc) return false;
   }
   return true;
@@ -118,7 +119,7 @@ export async function runEval(
     const judgeScores: number[] = [];
 
     for (const productId of top3) {
-      const doc = await db.collection('products').findOne({ _id: productId as unknown as import('mongodb').ObjectId });
+      const doc = await db.collection('products').findOne({ _id: new ObjectId(productId) });
       if (!doc) continue;
       const score = await judgeCandidate(judgeProvider, doc as Record<string, unknown>);
       if (score !== null) judgeScores.push(score);
