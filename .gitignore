@@ -6,3 +6,5 @@ apps/api/.env
 *.local
 coverage/
 eval/results/*.json
+.DS_Store
+.claude/scheduled_tasks.lock
