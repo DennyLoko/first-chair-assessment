@@ -6,20 +6,61 @@
     "localPath": "eval/fixtures/_images/001.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Sofas" },
-    { "type": "Sectional Sofa" },
-    { "width": { "$gte": 250 } }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Sofas"
+      },
+      {
+        "type": "Sectional Sofa"
+      },
+      {
+        "width": {
+          "$gte": 250
+        }
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7d56",
     "698b064991c8d5b76d3b7a88",
     "6989d5a276ef46c1946f8033",
     "6989d492d0ca8969ace9fdf7",
     "698b064991c8d5b76d3b79c4",
-    "6989d492d0ca8969ace9fd22"
+    "6989d492d0ca8969ace9fd22",
+    "6989d5a276ef46c1946f7f08",
+    "6989d5a276ef46c1946f7f46",
+    "698b064991c8d5b76d3b7add",
+    "698aec0d885390de6bb404a3",
+    "698aec0d885390de6bb404a2",
+    "698b064991c8d5b76d3b7d21",
+    "6989d5a276ef46c1946f80fa",
+    "698aec0d885390de6bb404a4",
+    "6989d492d0ca8969ace9fd9c",
+    "698b064991c8d5b76d3b799f",
+    "6989d492d0ca8969ace9fcbe",
+    "6989d492d0ca8969ace9fe26",
+    "698b064991c8d5b76d3b7c42",
+    "6989d5a276ef46c1946f7fe1",
+    "6989d5a276ef46c1946f7feb",
+    "698aec0d885390de6bb404a6",
+    "6989d5a276ef46c1946f7f4e",
+    "698b064991c8d5b76d3b7b5c",
+    "698b064991c8d5b76d3b7ac3",
+    "698b064991c8d5b76d3b7aa2",
+    "698aec0d885390de6bb404a7",
+    "6989d492d0ca8969ace9fe5e",
+    "6989d5a276ef46c1946f7f9e",
+    "6989d5a276ef46c1946f805b",
+    "698aec0d885390de6bb404a5",
+    "698b064991c8d5b76d3b79f3",
+    "6989d492d0ca8969ace9fcd2",
+    "6989d5a276ef46c1946f7f33",
+    "698b064991c8d5b76d3b7afc",
+    "698b064991c8d5b76d3b7c21",
+    "6989d5a276ef46c1946f80d7"
   ],
   "judgedRelevantBecause": "Large sectional sofas wider than 250cm match an image of an oversized L-shaped couch.",
-  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed. Updated: 37 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

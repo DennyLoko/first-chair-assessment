@@ -6,19 +6,67 @@
     "localPath": "eval/fixtures/_images/020.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "TV Stands" },
-    { "type": "Low Profile TV Stand" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "TV Stands"
+      },
+      {
+        "type": "Low Profile TV Stand"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698aec0d885390de6bb405e9",
     "698b064991c8d5b76d3b7bd4",
     "698b064991c8d5b76d3b7af6",
     "698b064991c8d5b76d3b7d54",
     "698b064991c8d5b76d3b7c1e",
-    "6989d492d0ca8969ace9fce0"
+    "6989d492d0ca8969ace9fce0",
+    "6989d492d0ca8969ace9fe31",
+    "6989d5a276ef46c1946f8009",
+    "698aec0d885390de6bb405ed",
+    "698aec0d885390de6bb405e6",
+    "6989d5a276ef46c1946f7fea",
+    "698aec0d885390de6bb405eb",
+    "6989d492d0ca8969ace9fd28",
+    "698b064991c8d5b76d3b7b60",
+    "698b064991c8d5b76d3b7984",
+    "6989d492d0ca8969ace9fe83",
+    "698b064991c8d5b76d3b7996",
+    "698b064991c8d5b76d3b7a4a",
+    "6989d5a276ef46c1946f7f72",
+    "6989d5a276ef46c1946f80cb",
+    "6989d492d0ca8969ace9fe4d",
+    "698b064991c8d5b76d3b79b9",
+    "698b064991c8d5b76d3b7b08",
+    "698b064991c8d5b76d3b79a9",
+    "698b064991c8d5b76d3b7bdd",
+    "6989d5a276ef46c1946f7fb9",
+    "698aec0d885390de6bb405ea",
+    "698b064991c8d5b76d3b7be8",
+    "6989d5a276ef46c1946f7fd4",
+    "698b064991c8d5b76d3b7bc7",
+    "698b064991c8d5b76d3b7b57",
+    "698b064991c8d5b76d3b7d12",
+    "698aec0d885390de6bb405ee",
+    "698aec0d885390de6bb405e7",
+    "698b064991c8d5b76d3b7c2a",
+    "698b064991c8d5b76d3b798a",
+    "698b064991c8d5b76d3b7b9f",
+    "6989d5a276ef46c1946f8058",
+    "698b064991c8d5b76d3b7b5a",
+    "698b064991c8d5b76d3b7a55",
+    "698aec0d885390de6bb405e8",
+    "698b064991c8d5b76d3b799d",
+    "6989d5a276ef46c1946f8074",
+    "6989d5a276ef46c1946f7fd2",
+    "698aec0d885390de6bb405ec",
+    "6989d5a276ef46c1946f7f13",
+    "698b064991c8d5b76d3b7bc8",
+    "698b064991c8d5b76d3b7cf3"
   ],
   "judgedRelevantBecause": "Low-profile TV stands close to the floor match a minimal media console in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 48 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

@@ -6,19 +6,56 @@
     "localPath": "eval/fixtures/_images/023.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Beds" },
-    { "type": { "$regex": "upholstered|panel|storage", "$options": "i" } }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Beds"
+      },
+      {
+        "type": {
+          "$regex": "upholstered|panel|storage",
+          "$options": "i"
+        }
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698aec0d885390de6bb4058a",
     "698aec0d885390de6bb40584",
     "698aec0d885390de6bb40585",
     "6989d5a276ef46c1946f8017",
     "698aec0d885390de6bb4058b",
-    "6989d492d0ca8969ace9fdc7"
+    "6989d492d0ca8969ace9fdc7",
+    "698aec0d885390de6bb4058d",
+    "698aec0d885390de6bb4058f",
+    "6989d5a276ef46c1946f8092",
+    "698aec0d885390de6bb40586",
+    "698aec0d885390de6bb40587",
+    "698b064991c8d5b76d3b7caf",
+    "6989d492d0ca8969ace9fde3",
+    "698b064991c8d5b76d3b7ae8",
+    "698b064991c8d5b76d3b7a68",
+    "698b064991c8d5b76d3b7bf5",
+    "698aec0d885390de6bb40583",
+    "698b064991c8d5b76d3b7d13",
+    "6989d5a276ef46c1946f7fd1",
+    "698aec0d885390de6bb4058e",
+    "698aec0d885390de6bb4058c",
+    "6989d492d0ca8969ace9fccc",
+    "698aec0d885390de6bb40588",
+    "6989d492d0ca8969ace9fe1f",
+    "6989d492d0ca8969ace9fe09",
+    "698b064991c8d5b76d3b7b17",
+    "698aec0d885390de6bb40589",
+    "6989d492d0ca8969ace9fd8a",
+    "6989d492d0ca8969ace9fe7d",
+    "698b064991c8d5b76d3b7c8c",
+    "698b064991c8d5b76d3b79b5",
+    "698b064991c8d5b76d3b7d4e",
+    "698b064991c8d5b76d3b7a5c",
+    "6989d5a276ef46c1946f7f76"
   ],
   "judgedRelevantBecause": "Upholstered or storage beds with fabric headboards match the padded bed frame in the query image.",
-  "curatorNote": "Regex matched 'Storage Bed' type in the catalog; returned 6 results.",
+  "curatorNote": "Regex matched 'Storage Bed' type in the catalog; returned 6 results. Updated: 34 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

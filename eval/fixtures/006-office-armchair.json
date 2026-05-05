@@ -6,19 +6,51 @@
     "localPath": "eval/fixtures/_images/006.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Chairs" },
-    { "type": "Armchair" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Chairs"
+      },
+      {
+        "type": "Armchair"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7987",
     "698b064991c8d5b76d3b798d",
     "698b064991c8d5b76d3b79c8",
     "698aec0d885390de6bb404d3",
     "698aec0d885390de6bb404d7",
-    "6989d492d0ca8969ace9fcaa"
+    "6989d492d0ca8969ace9fcaa",
+    "698b064991c8d5b76d3b79ec",
+    "698aec0d885390de6bb404d8",
+    "6989d492d0ca8969ace9fd31",
+    "698aec0d885390de6bb404cd",
+    "6989d5a276ef46c1946f7f0b",
+    "698aec0d885390de6bb404d4",
+    "698b064991c8d5b76d3b7bb5",
+    "6989d492d0ca8969ace9fe7b",
+    "6989d492d0ca8969ace9fda5",
+    "698aec0d885390de6bb404ce",
+    "698b064991c8d5b76d3b7d20",
+    "6989d492d0ca8969ace9fdd0",
+    "698aec0d885390de6bb404cf",
+    "6989d492d0ca8969ace9fd88",
+    "698b064991c8d5b76d3b7c1c",
+    "698aec0d885390de6bb404d0",
+    "698b064991c8d5b76d3b7a0c",
+    "6989d5a276ef46c1946f8008",
+    "698aec0d885390de6bb404d1",
+    "6989d5a276ef46c1946f7f50",
+    "698aec0d885390de6bb404cc",
+    "698aec0d885390de6bb404d5",
+    "698aec0d885390de6bb404d2",
+    "6989d5a276ef46c1946f7fbd",
+    "6989d492d0ca8969ace9fcd8",
+    "698aec0d885390de6bb404d6"
   ],
   "judgedRelevantBecause": "Upholstered armchairs with padded arms match a classic lounge chair image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 32 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

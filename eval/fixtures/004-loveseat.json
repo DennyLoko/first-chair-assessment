@@ -6,19 +6,56 @@
     "localPath": "eval/fixtures/_images/004.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Sofas" },
-    { "type": "Loveseat" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Sofas"
+      },
+      {
+        "type": "Loveseat"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698aec0d885390de6bb404ac",
     "6989d5a276ef46c1946f80fb",
     "6989d5a276ef46c1946f7f52",
     "698aec0d885390de6bb404aa",
     "698b064991c8d5b76d3b7c41",
-    "6989d492d0ca8969ace9fe19"
+    "6989d492d0ca8969ace9fe19",
+    "698b064991c8d5b76d3b7d2e",
+    "6989d5a276ef46c1946f808c",
+    "698b064991c8d5b76d3b7c2e",
+    "6989d5a276ef46c1946f80a3",
+    "6989d5a276ef46c1946f7f9d",
+    "698aec0d885390de6bb404a8",
+    "6989d492d0ca8969ace9fd1d",
+    "698aec0d885390de6bb404ab",
+    "6989d5a276ef46c1946f80ed",
+    "698b064991c8d5b76d3b7aec",
+    "698b064991c8d5b76d3b799c",
+    "698b064991c8d5b76d3b7a63",
+    "698aec0d885390de6bb404a9",
+    "6989d492d0ca8969ace9fcb5",
+    "698b064991c8d5b76d3b7c8a",
+    "6989d492d0ca8969ace9fd76",
+    "6989d5a276ef46c1946f7f4c",
+    "698b064991c8d5b76d3b7ab9",
+    "698b064991c8d5b76d3b798f",
+    "698b064991c8d5b76d3b7bc4",
+    "6989d492d0ca8969ace9fe24",
+    "6989d492d0ca8969ace9fe15",
+    "6989d492d0ca8969ace9fc9d",
+    "6989d5a276ef46c1946f7f19",
+    "6989d492d0ca8969ace9fdd3",
+    "6989d492d0ca8969ace9fd4e",
+    "6989d492d0ca8969ace9fced",
+    "698b064991c8d5b76d3b7d07",
+    "698b064991c8d5b76d3b79b1",
+    "698b064991c8d5b76d3b7d4a",
+    "6989d5a276ef46c1946f8075"
   ],
   "judgedRelevantBecause": "Two-seat loveseats match a compact sofa image suited for small living spaces.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 37 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

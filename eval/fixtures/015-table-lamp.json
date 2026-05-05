@@ -6,19 +6,59 @@
     "localPath": "eval/fixtures/_images/015.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Lighting" },
-    { "type": "Table Lamp" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Lighting"
+      },
+      {
+        "type": "Table Lamp"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "6989d492d0ca8969ace9fd6a",
     "6989d492d0ca8969ace9fe14",
     "6989d492d0ca8969ace9fd17",
     "6989d492d0ca8969ace9fe4c",
     "6989d5a276ef46c1946f80bc",
-    "698aec0d885390de6bb4064f"
+    "698aec0d885390de6bb4064f",
+    "698b064991c8d5b76d3b7c85",
+    "698b064991c8d5b76d3b7b53",
+    "698b064991c8d5b76d3b7993",
+    "698b064991c8d5b76d3b7d64",
+    "6989d492d0ca8969ace9fca6",
+    "698aec0d885390de6bb40654",
+    "698aec0d885390de6bb40655",
+    "698aec0d885390de6bb40652",
+    "6989d492d0ca8969ace9fe1c",
+    "6989d5a276ef46c1946f808f",
+    "698aec0d885390de6bb40650",
+    "698b064991c8d5b76d3b79bf",
+    "6989d5a276ef46c1946f80ef",
+    "6989d5a276ef46c1946f7f42",
+    "698b064991c8d5b76d3b7a2b",
+    "6989d492d0ca8969ace9fe73",
+    "698aec0d885390de6bb40656",
+    "6989d492d0ca8969ace9fd73",
+    "698aec0d885390de6bb4064e",
+    "6989d492d0ca8969ace9fd45",
+    "698aec0d885390de6bb40653",
+    "6989d492d0ca8969ace9fdc8",
+    "698b064991c8d5b76d3b7c94",
+    "6989d5a276ef46c1946f7f3c",
+    "698aec0d885390de6bb40651",
+    "698b064991c8d5b76d3b7a58",
+    "698b064991c8d5b76d3b7a6b",
+    "698b064991c8d5b76d3b7cfe",
+    "698b064991c8d5b76d3b7ae9",
+    "698b064991c8d5b76d3b7ade",
+    "698b064991c8d5b76d3b79a6",
+    "698b064991c8d5b76d3b7a05",
+    "698b064991c8d5b76d3b7b80",
+    "698b064991c8d5b76d3b7c1a"
   ],
   "judgedRelevantBecause": "Table lamps with a base and shade match the bedside or desk lamp in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 40 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

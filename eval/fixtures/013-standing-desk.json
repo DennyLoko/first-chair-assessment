@@ -6,19 +6,62 @@
     "localPath": "eval/fixtures/_images/013.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Desks" },
-    { "type": "Standing Desk" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Desks"
+      },
+      {
+        "type": "Standing Desk"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "6989d492d0ca8969ace9fdc6",
     "6989d492d0ca8969ace9fcea",
     "698b064991c8d5b76d3b79f4",
     "698b064991c8d5b76d3b7a17",
     "6989d492d0ca8969ace9fd7a",
-    "698aec0d885390de6bb4055c"
+    "698aec0d885390de6bb4055c",
+    "698aec0d885390de6bb40560",
+    "6989d492d0ca8969ace9fe0f",
+    "698b064991c8d5b76d3b7a5a",
+    "698b064991c8d5b76d3b7cd0",
+    "6989d5a276ef46c1946f7f0c",
+    "698b064991c8d5b76d3b7a2f",
+    "6989d5a276ef46c1946f8015",
+    "698b064991c8d5b76d3b7d10",
+    "698b064991c8d5b76d3b7d24",
+    "698b064991c8d5b76d3b7cd7",
+    "698aec0d885390de6bb40562",
+    "698b064991c8d5b76d3b7c28",
+    "6989d5a276ef46c1946f8091",
+    "698aec0d885390de6bb4055e",
+    "6989d5a276ef46c1946f8095",
+    "698b064991c8d5b76d3b7c88",
+    "6989d5a276ef46c1946f8002",
+    "698aec0d885390de6bb40565",
+    "698aec0d885390de6bb40564",
+    "698aec0d885390de6bb4055f",
+    "698b064991c8d5b76d3b7c71",
+    "6989d492d0ca8969ace9fdaf",
+    "698aec0d885390de6bb4055b",
+    "698aec0d885390de6bb4055a",
+    "698b064991c8d5b76d3b7c5e",
+    "698b064991c8d5b76d3b7c2c",
+    "6989d492d0ca8969ace9fe55",
+    "698b064991c8d5b76d3b7bcd",
+    "698b064991c8d5b76d3b7cf4",
+    "698b064991c8d5b76d3b7c6a",
+    "698aec0d885390de6bb40563",
+    "698aec0d885390de6bb40561",
+    "698b064991c8d5b76d3b7bd1",
+    "698b064991c8d5b76d3b7d67",
+    "698aec0d885390de6bb4055d",
+    "6989d492d0ca8969ace9fcd4",
+    "698b064991c8d5b76d3b799e"
   ],
   "judgedRelevantBecause": "Height-adjustable standing desks match a workstation image showing an elevated desk setup.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 43 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

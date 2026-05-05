@@ -1,0 +1,18 @@
+{
+  "runAt": "2026-05-05T05:35:20.897Z",
+  "judgePromptVersion": "v1",
+  "judgeProviderId": "openai",
+  "metrics": {
+    "hitAt1": 0.16,
+    "hitAt3": 0.28,
+    "hitAt5": 0.28,
+    "hitAt8": 0.28,
+    "mrr": 0.20666666666666667,
+    "judgeScoreMean": 0.607462686567164,
+    "latencyP50Ms": 5771,
+    "latencyP95Ms": 11604,
+    "fixtureCount": 25,
+    "staleCount": 0
+  },
+  "staleFixtures": []
+}

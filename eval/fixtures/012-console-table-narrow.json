@@ -6,20 +6,68 @@
     "localPath": "eval/fixtures/_images/012.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Tables" },
-    { "type": "Console Table" },
-    { "depth": { "$lte": 40 } }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Tables"
+      },
+      {
+        "type": "Console Table"
+      },
+      {
+        "depth": {
+          "$lte": 40
+        }
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7cd8",
     "698b064991c8d5b76d3b7b27",
     "698b064991c8d5b76d3b7a93",
     "698aec0d885390de6bb4050e",
     "6989d492d0ca8969ace9fd2b",
-    "6989d5a276ef46c1946f8044"
+    "6989d5a276ef46c1946f8044",
+    "698b064991c8d5b76d3b7c19",
+    "698b064991c8d5b76d3b7b0c",
+    "698b064991c8d5b76d3b7cec",
+    "6989d492d0ca8969ace9fda8",
+    "6989d5a276ef46c1946f7fca",
+    "698b064991c8d5b76d3b7c12",
+    "698b064991c8d5b76d3b7cb1",
+    "698b064991c8d5b76d3b7c64",
+    "698aec0d885390de6bb4050f",
+    "698b064991c8d5b76d3b7b04",
+    "6989d492d0ca8969ace9fdd8",
+    "6989d5a276ef46c1946f7f5c",
+    "698aec0d885390de6bb4050a",
+    "698b064991c8d5b76d3b7c51",
+    "698b064991c8d5b76d3b7d06",
+    "698aec0d885390de6bb4050d",
+    "698b064991c8d5b76d3b7a08",
+    "698b064991c8d5b76d3b7cfb",
+    "698b064991c8d5b76d3b7990",
+    "698b064991c8d5b76d3b7d51",
+    "6989d492d0ca8969ace9fd18",
+    "6989d492d0ca8969ace9fd4d",
+    "6989d492d0ca8969ace9fe2e",
+    "698b064991c8d5b76d3b7b67",
+    "6989d492d0ca8969ace9fe3c",
+    "6989d5a276ef46c1946f7f66",
+    "6989d492d0ca8969ace9fdc9",
+    "698aec0d885390de6bb4050b",
+    "6989d492d0ca8969ace9fce7",
+    "698b064991c8d5b76d3b7b81",
+    "6989d5a276ef46c1946f7f40",
+    "698aec0d885390de6bb4050c",
+    "698aec0d885390de6bb40510",
+    "698b064991c8d5b76d3b7b32",
+    "698b064991c8d5b76d3b7bc5",
+    "698aec0d885390de6bb40511",
+    "6989d492d0ca8969ace9fd68",
+    "6989d5a276ef46c1946f7f77"
   ],
   "judgedRelevantBecause": "Narrow console tables with depth 40cm or less fit against a wall as shown in the query image.",
-  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed. Updated: 44 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

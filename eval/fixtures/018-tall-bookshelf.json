@@ -6,19 +6,61 @@
     "localPath": "eval/fixtures/_images/018.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Bookshelves" },
-    { "type": "Tall Bookshelf" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Bookshelves"
+      },
+      {
+        "type": "Tall Bookshelf"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7c99",
     "6989d492d0ca8969ace9fe49",
     "698b064991c8d5b76d3b7b00",
     "698aec0d885390de6bb405b6",
     "698b064991c8d5b76d3b7cd1",
-    "698b064991c8d5b76d3b7ab3"
+    "698b064991c8d5b76d3b7ab3",
+    "698b064991c8d5b76d3b7c0a",
+    "698b064991c8d5b76d3b7baa",
+    "698b064991c8d5b76d3b79e1",
+    "6989d5a276ef46c1946f804d",
+    "6989d5a276ef46c1946f7fb4",
+    "698b064991c8d5b76d3b79a0",
+    "6989d492d0ca8969ace9fcff",
+    "6989d5a276ef46c1946f7fdc",
+    "698b064991c8d5b76d3b7b59",
+    "698b064991c8d5b76d3b7b99",
+    "698b064991c8d5b76d3b7d0c",
+    "698b064991c8d5b76d3b7acc",
+    "698aec0d885390de6bb405b7",
+    "698b064991c8d5b76d3b7bbf",
+    "698aec0d885390de6bb405b9",
+    "698b064991c8d5b76d3b7ccf",
+    "6989d492d0ca8969ace9fe05",
+    "698b064991c8d5b76d3b7c01",
+    "6989d492d0ca8969ace9fe77",
+    "6989d5a276ef46c1946f7f26",
+    "6989d492d0ca8969ace9fcf1",
+    "6989d5a276ef46c1946f808a",
+    "6989d492d0ca8969ace9fe63",
+    "6989d5a276ef46c1946f80bf",
+    "6989d5a276ef46c1946f7fdd",
+    "698b064991c8d5b76d3b7cc8",
+    "698b064991c8d5b76d3b7b69",
+    "6989d492d0ca8969ace9fcf3",
+    "6989d5a276ef46c1946f8001",
+    "6989d492d0ca8969ace9fdb3",
+    "6989d5a276ef46c1946f809c",
+    "698b064991c8d5b76d3b7cfc",
+    "698aec0d885390de6bb405b8",
+    "698aec0d885390de6bb405b5",
+    "6989d5a276ef46c1946f7f59",
+    "6989d5a276ef46c1946f804b"
   ],
   "judgedRelevantBecause": "Tall vertical bookshelves match a floor-to-near-ceiling shelving unit in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 42 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

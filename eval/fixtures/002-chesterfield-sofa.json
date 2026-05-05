@@ -6,19 +6,58 @@
     "localPath": "eval/fixtures/_images/002.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Sofas" },
-    { "type": "Chesterfield Sofa" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Sofas"
+      },
+      {
+        "type": "Chesterfield Sofa"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698aec0d885390de6bb404be",
     "6989d5a276ef46c1946f7f54",
     "6989d5a276ef46c1946f7fb8",
     "6989d5a276ef46c1946f8007",
     "6989d5a276ef46c1946f8066",
-    "698aec0d885390de6bb404c1"
+    "698aec0d885390de6bb404c1",
+    "698aec0d885390de6bb404c0",
+    "698b064991c8d5b76d3b7bfd",
+    "698b064991c8d5b76d3b7c35",
+    "698b064991c8d5b76d3b7ba3",
+    "6989d492d0ca8969ace9fcbc",
+    "698b064991c8d5b76d3b7a69",
+    "698b064991c8d5b76d3b7aa7",
+    "698b064991c8d5b76d3b7c5c",
+    "698b064991c8d5b76d3b7af9",
+    "698aec0d885390de6bb404b9",
+    "6989d5a276ef46c1946f8068",
+    "698b064991c8d5b76d3b7a48",
+    "6989d5a276ef46c1946f7fc9",
+    "6989d5a276ef46c1946f8020",
+    "698b064991c8d5b76d3b7b87",
+    "698b064991c8d5b76d3b7994",
+    "698b064991c8d5b76d3b7a8b",
+    "6989d5a276ef46c1946f7fee",
+    "698aec0d885390de6bb404ba",
+    "698aec0d885390de6bb404b8",
+    "6989d5a276ef46c1946f8093",
+    "6989d492d0ca8969ace9fdf3",
+    "698b064991c8d5b76d3b7c7f",
+    "6989d5a276ef46c1946f80d1",
+    "698b064991c8d5b76d3b7cc4",
+    "698aec0d885390de6bb404bb",
+    "698aec0d885390de6bb404bf",
+    "698b064991c8d5b76d3b7982",
+    "698b064991c8d5b76d3b7997",
+    "698aec0d885390de6bb404bd",
+    "698aec0d885390de6bb404bc",
+    "6989d492d0ca8969ace9fcb8",
+    "6989d5a276ef46c1946f7f4a"
   ],
   "judgedRelevantBecause": "Chesterfield sofas with rolled arms and button-tufting match the distinctive style in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 39 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

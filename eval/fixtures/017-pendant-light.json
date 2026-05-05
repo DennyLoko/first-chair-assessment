@@ -6,19 +6,58 @@
     "localPath": "eval/fixtures/_images/017.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Lighting" },
-    { "type": "Pendant Light" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Lighting"
+      },
+      {
+        "type": "Pendant Light"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "6989d5a276ef46c1946f7f61",
     "698b064991c8d5b76d3b7b07",
     "6989d492d0ca8969ace9fda1",
     "698aec0d885390de6bb4065b",
     "698aec0d885390de6bb40659",
-    "698b064991c8d5b76d3b7aed"
+    "698b064991c8d5b76d3b7aed",
+    "698b064991c8d5b76d3b7cb6",
+    "698b064991c8d5b76d3b7bac",
+    "6989d492d0ca8969ace9fd9a",
+    "6989d492d0ca8969ace9fe44",
+    "6989d5a276ef46c1946f8061",
+    "6989d5a276ef46c1946f8080",
+    "6989d492d0ca8969ace9fe62",
+    "698aec0d885390de6bb4065c",
+    "698aec0d885390de6bb4065a",
+    "698aec0d885390de6bb4065d",
+    "698b064991c8d5b76d3b7d17",
+    "698b064991c8d5b76d3b79f1",
+    "6989d5a276ef46c1946f8028",
+    "698b064991c8d5b76d3b7b18",
+    "6989d492d0ca8969ace9fe41",
+    "6989d5a276ef46c1946f8013",
+    "6989d5a276ef46c1946f8021",
+    "698aec0d885390de6bb40658",
+    "698b064991c8d5b76d3b7a76",
+    "698b064991c8d5b76d3b7b30",
+    "698b064991c8d5b76d3b7cf7",
+    "698b064991c8d5b76d3b7c2d",
+    "6989d5a276ef46c1946f7f87",
+    "698aec0d885390de6bb40657",
+    "6989d492d0ca8969ace9fce3",
+    "6989d5a276ef46c1946f807c",
+    "6989d5a276ef46c1946f8089",
+    "698b064991c8d5b76d3b7b6d",
+    "6989d5a276ef46c1946f805e",
+    "698b064991c8d5b76d3b79ee",
+    "6989d492d0ca8969ace9fc99",
+    "698b064991c8d5b76d3b7c90",
+    "698b064991c8d5b76d3b7b13"
   ],
   "judgedRelevantBecause": "Hanging pendant lights match an overhead suspended light fixture in the query image.",
-  "curatorNote": "Used exact type 'Pendant Light' which matched; no regex fallback needed.",
+  "curatorNote": "Used exact type 'Pendant Light' which matched; no regex fallback needed. Updated: 39 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

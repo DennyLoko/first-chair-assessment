@@ -6,19 +6,59 @@
     "localPath": "eval/fixtures/_images/011.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Coffee Tables" },
-    { "type": "Rectangular Coffee Table" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Coffee Tables"
+      },
+      {
+        "type": "Rectangular Coffee Table"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7b02",
     "698b064991c8d5b76d3b7a74",
     "6989d5a276ef46c1946f7f9a",
     "698b064991c8d5b76d3b7a15",
     "698b064991c8d5b76d3b7b8a",
-    "6989d492d0ca8969ace9fe29"
+    "6989d492d0ca8969ace9fe29",
+    "698aec0d885390de6bb40539",
+    "698b064991c8d5b76d3b79e6",
+    "6989d492d0ca8969ace9fe4f",
+    "6989d5a276ef46c1946f7f2e",
+    "698aec0d885390de6bb40538",
+    "6989d5a276ef46c1946f7f70",
+    "698aec0d885390de6bb4053a",
+    "698aec0d885390de6bb40536",
+    "698b064991c8d5b76d3b7ad0",
+    "698b064991c8d5b76d3b7b0a",
+    "698b064991c8d5b76d3b7bc0",
+    "698aec0d885390de6bb40532",
+    "698aec0d885390de6bb40537",
+    "698b064991c8d5b76d3b7b98",
+    "698aec0d885390de6bb40535",
+    "698b064991c8d5b76d3b7a9c",
+    "6989d492d0ca8969ace9fe76",
+    "698aec0d885390de6bb4053c",
+    "698b064991c8d5b76d3b7d57",
+    "698aec0d885390de6bb40534",
+    "698b064991c8d5b76d3b7d2c",
+    "698b064991c8d5b76d3b7b54",
+    "698b064991c8d5b76d3b7a3b",
+    "698b064991c8d5b76d3b7b4f",
+    "6989d5a276ef46c1946f7f65",
+    "6989d5a276ef46c1946f7f99",
+    "698aec0d885390de6bb4053b",
+    "6989d492d0ca8969ace9fdce",
+    "698b064991c8d5b76d3b7bb7",
+    "698aec0d885390de6bb40533",
+    "698aec0d885390de6bb40531",
+    "6989d5a276ef46c1946f7fac",
+    "6989d5a276ef46c1946f7fe0",
+    "698aec0d885390de6bb4053d"
   ],
   "judgedRelevantBecause": "Rectangular coffee tables match a low rectangular table placed in front of a sofa.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 40 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

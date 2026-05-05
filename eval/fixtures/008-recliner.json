@@ -6,19 +6,57 @@
     "localPath": "eval/fixtures/_images/008.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Chairs" },
-    { "type": "Recliner" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Chairs"
+      },
+      {
+        "type": "Recliner"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7c92",
     "698b064991c8d5b76d3b7a86",
     "698b064991c8d5b76d3b7ced",
     "698b064991c8d5b76d3b7b92",
     "698aec0d885390de6bb404db",
-    "698b064991c8d5b76d3b7c59"
+    "698b064991c8d5b76d3b7c59",
+    "6989d492d0ca8969ace9fd0e",
+    "698aec0d885390de6bb404e4",
+    "6989d5a276ef46c1946f807d",
+    "698aec0d885390de6bb404d9",
+    "698aec0d885390de6bb404da",
+    "698b064991c8d5b76d3b7b5e",
+    "6989d492d0ca8969ace9fcdc",
+    "6989d492d0ca8969ace9fe79",
+    "698b064991c8d5b76d3b7bdc",
+    "698aec0d885390de6bb404dc",
+    "698b064991c8d5b76d3b79ef",
+    "6989d492d0ca8969ace9fcfe",
+    "698b064991c8d5b76d3b7ac7",
+    "698aec0d885390de6bb404de",
+    "6989d492d0ca8969ace9fdfb",
+    "698aec0d885390de6bb404e0",
+    "698b064991c8d5b76d3b7caa",
+    "6989d492d0ca8969ace9fce6",
+    "698b064991c8d5b76d3b7ca2",
+    "698aec0d885390de6bb404df",
+    "6989d492d0ca8969ace9fda7",
+    "698aec0d885390de6bb404e1",
+    "698aec0d885390de6bb404dd",
+    "6989d5a276ef46c1946f80c3",
+    "698b064991c8d5b76d3b7ba9",
+    "698aec0d885390de6bb404e5",
+    "698b064991c8d5b76d3b79c0",
+    "6989d492d0ca8969ace9fdac",
+    "698aec0d885390de6bb404e2",
+    "698b064991c8d5b76d3b7b38",
+    "6989d492d0ca8969ace9fd3f",
+    "698aec0d885390de6bb404e3"
   ],
   "judgedRelevantBecause": "Recliner chairs with adjustable back and footrest match the query image of a reclining chair.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 38 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

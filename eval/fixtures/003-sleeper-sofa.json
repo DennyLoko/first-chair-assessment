@@ -6,19 +6,55 @@
     "localPath": "eval/fixtures/_images/003.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Sofas" },
-    { "type": "Sleeper Sofa" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Sofas"
+      },
+      {
+        "type": "Sleeper Sofa"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7ba4",
     "698aec0d885390de6bb404af",
     "6989d492d0ca8969ace9fd7f",
     "698aec0d885390de6bb404ae",
     "698b064991c8d5b76d3b79f6",
-    "698aec0d885390de6bb404b0"
+    "698aec0d885390de6bb404b0",
+    "698aec0d885390de6bb404b1",
+    "698aec0d885390de6bb404b6",
+    "6989d492d0ca8969ace9fd5d",
+    "698aec0d885390de6bb404b3",
+    "6989d492d0ca8969ace9fdd4",
+    "698aec0d885390de6bb404b2",
+    "6989d492d0ca8969ace9fe50",
+    "6989d5a276ef46c1946f7f84",
+    "6989d5a276ef46c1946f7fbb",
+    "698b064991c8d5b76d3b7a83",
+    "6989d5a276ef46c1946f8012",
+    "698b064991c8d5b76d3b7ce0",
+    "6989d5a276ef46c1946f7ff6",
+    "6989d5a276ef46c1946f80f2",
+    "698b064991c8d5b76d3b7d15",
+    "6989d5a276ef46c1946f7f20",
+    "698b064991c8d5b76d3b79d0",
+    "698aec0d885390de6bb404b4",
+    "698b064991c8d5b76d3b7c8d",
+    "6989d492d0ca8969ace9fe57",
+    "698aec0d885390de6bb404ad",
+    "698aec0d885390de6bb404b5",
+    "6989d5a276ef46c1946f80b6",
+    "698b064991c8d5b76d3b7b82",
+    "698b064991c8d5b76d3b7d29",
+    "6989d5a276ef46c1946f80f0",
+    "698b064991c8d5b76d3b7ad7",
+    "698aec0d885390de6bb404b7",
+    "698b064991c8d5b76d3b7cd5",
+    "698b064991c8d5b76d3b7c56"
   ],
   "judgedRelevantBecause": "Sleeper sofas that convert to beds match an image of a sofa with a pull-out mattress.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 36 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

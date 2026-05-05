@@ -6,20 +6,64 @@
     "localPath": "eval/fixtures/_images/005.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Chairs" },
-    { "type": "Dining Chair" },
-    { "width": { "$lte": 55 } }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Chairs"
+      },
+      {
+        "type": "Dining Chair"
+      },
+      {
+        "width": {
+          "$lte": 55
+        }
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7999",
     "698b064991c8d5b76d3b7cca",
     "698b064991c8d5b76d3b7b34",
     "6989d5a276ef46c1946f7f7b",
     "698aec0d885390de6bb40504",
-    "698aec0d885390de6bb40507"
+    "698aec0d885390de6bb40507",
+    "698b064991c8d5b76d3b7c40",
+    "6989d5a276ef46c1946f7f3f",
+    "698b064991c8d5b76d3b79a7",
+    "698b064991c8d5b76d3b7b8d",
+    "6989d5a276ef46c1946f7f6a",
+    "6989d5a276ef46c1946f80e0",
+    "6989d492d0ca8969ace9fdbe",
+    "698b064991c8d5b76d3b7ac4",
+    "6989d492d0ca8969ace9fd8d",
+    "698b064991c8d5b76d3b7c20",
+    "698b064991c8d5b76d3b7c4a",
+    "698aec0d885390de6bb40505",
+    "698b064991c8d5b76d3b7b5f",
+    "698aec0d885390de6bb40509",
+    "6989d492d0ca8969ace9fd38",
+    "698aec0d885390de6bb40501",
+    "6989d492d0ca8969ace9fe84",
+    "698aec0d885390de6bb40500",
+    "6989d5a276ef46c1946f80ce",
+    "698b064991c8d5b76d3b7be5",
+    "698b064991c8d5b76d3b7afd",
+    "6989d5a276ef46c1946f80ee",
+    "698aec0d885390de6bb40506",
+    "698aec0d885390de6bb40502",
+    "6989d5a276ef46c1946f7fd7",
+    "698aec0d885390de6bb40508",
+    "6989d492d0ca8969ace9fd4c",
+    "6989d492d0ca8969ace9fdff",
+    "698b064991c8d5b76d3b79bb",
+    "698b064991c8d5b76d3b7c00",
+    "698b064991c8d5b76d3b7a1d",
+    "698b064991c8d5b76d3b7d38",
+    "698aec0d885390de6bb404ff",
+    "698aec0d885390de6bb40503"
   ],
   "judgedRelevantBecause": "Compact dining chairs no wider than 55cm match a slender side chair image.",
-  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed.",
+  "curatorNote": "Filter returned 6 results; all taken. No adjustments needed. Updated: 40 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

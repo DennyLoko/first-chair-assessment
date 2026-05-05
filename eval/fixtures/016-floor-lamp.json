@@ -6,19 +6,55 @@
     "localPath": "eval/fixtures/_images/016.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Lighting" },
-    { "type": "Floor Lamp" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Lighting"
+      },
+      {
+        "type": "Floor Lamp"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7b40",
     "6989d5a276ef46c1946f80ae",
     "6989d492d0ca8969ace9fd12",
     "698aec0d885390de6bb4064a",
     "6989d5a276ef46c1946f7fb2",
-    "698b064991c8d5b76d3b7b65"
+    "698b064991c8d5b76d3b7b65",
+    "6989d492d0ca8969ace9fd2a",
+    "6989d492d0ca8969ace9fd1c",
+    "698aec0d885390de6bb40649",
+    "698aec0d885390de6bb40647",
+    "6989d492d0ca8969ace9fd16",
+    "698b064991c8d5b76d3b7ca5",
+    "6989d492d0ca8969ace9fcc1",
+    "6989d5a276ef46c1946f7fff",
+    "698aec0d885390de6bb40644",
+    "698aec0d885390de6bb4064b",
+    "698b064991c8d5b76d3b7d0a",
+    "698aec0d885390de6bb4064d",
+    "6989d5a276ef46c1946f8005",
+    "698b064991c8d5b76d3b7bda",
+    "698b064991c8d5b76d3b7c53",
+    "6989d5a276ef46c1946f809d",
+    "698b064991c8d5b76d3b7a44",
+    "698aec0d885390de6bb40648",
+    "6989d5a276ef46c1946f80ac",
+    "698aec0d885390de6bb40645",
+    "698aec0d885390de6bb4064c",
+    "6989d5a276ef46c1946f80b0",
+    "6989d5a276ef46c1946f8003",
+    "698aec0d885390de6bb40646",
+    "698b064991c8d5b76d3b7c0e",
+    "698b064991c8d5b76d3b7c06",
+    "6989d5a276ef46c1946f7f0d",
+    "698b064991c8d5b76d3b7be3",
+    "698b064991c8d5b76d3b7c89",
+    "698b064991c8d5b76d3b7a52"
   ],
   "judgedRelevantBecause": "Tall floor lamps with a pole and shade match the standing lamp depicted in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 36 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

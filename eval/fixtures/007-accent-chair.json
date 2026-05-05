@@ -6,19 +6,56 @@
     "localPath": "eval/fixtures/_images/007.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Chairs" },
-    { "type": "Accent Chair" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Chairs"
+      },
+      {
+        "type": "Accent Chair"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "698b064991c8d5b76d3b7cf0",
     "698aec0d885390de6bb404ec",
     "698b064991c8d5b76d3b7c07",
     "6989d5a276ef46c1946f804e",
     "6989d5a276ef46c1946f8072",
-    "698aec0d885390de6bb404e9"
+    "698aec0d885390de6bb404e9",
+    "698aec0d885390de6bb404ef",
+    "6989d5a276ef46c1946f7f6d",
+    "698b064991c8d5b76d3b79aa",
+    "698aec0d885390de6bb404e6",
+    "698b064991c8d5b76d3b7c96",
+    "698b064991c8d5b76d3b79a5",
+    "6989d492d0ca8969ace9fcc3",
+    "6989d5a276ef46c1946f7fe8",
+    "698aec0d885390de6bb404eb",
+    "698b064991c8d5b76d3b7ab6",
+    "698aec0d885390de6bb404f1",
+    "698aec0d885390de6bb404e7",
+    "6989d492d0ca8969ace9fc9c",
+    "698aec0d885390de6bb404ea",
+    "698aec0d885390de6bb404ed",
+    "6989d492d0ca8969ace9fe61",
+    "698aec0d885390de6bb404f0",
+    "698b064991c8d5b76d3b7a36",
+    "698b064991c8d5b76d3b7af1",
+    "698aec0d885390de6bb404ee",
+    "698b064991c8d5b76d3b7b36",
+    "698b064991c8d5b76d3b7b4e",
+    "6989d492d0ca8969ace9fddc",
+    "698aec0d885390de6bb404e8",
+    "698b064991c8d5b76d3b7a89",
+    "6989d492d0ca8969ace9fe51",
+    "698aec0d885390de6bb404f3",
+    "698b064991c8d5b76d3b7b7b",
+    "698aec0d885390de6bb404f2",
+    "698b064991c8d5b76d3b7cac",
+    "6989d492d0ca8969ace9fcda"
   ],
   "judgedRelevantBecause": "Decorative accent chairs with distinctive silhouettes match a statement chair image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 37 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

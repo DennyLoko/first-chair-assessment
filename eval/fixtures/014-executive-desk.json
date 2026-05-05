@@ -6,19 +6,61 @@
     "localPath": "eval/fixtures/_images/014.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Desks" },
-    { "type": "Executive Desk" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Desks"
+      },
+      {
+        "type": "Executive Desk"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "6989d492d0ca8969ace9fd0a",
     "6989d492d0ca8969ace9fe4e",
     "6989d5a276ef46c1946f800e",
     "698b064991c8d5b76d3b7a29",
     "698b064991c8d5b76d3b7c6d",
-    "6989d5a276ef46c1946f80dc"
+    "6989d5a276ef46c1946f80dc",
+    "698aec0d885390de6bb40568",
+    "6989d5a276ef46c1946f7f71",
+    "698b064991c8d5b76d3b7d28",
+    "698b064991c8d5b76d3b7a19",
+    "6989d5a276ef46c1946f7f7d",
+    "698b064991c8d5b76d3b7d23",
+    "698aec0d885390de6bb40567",
+    "6989d492d0ca8969ace9fd51",
+    "698b064991c8d5b76d3b7adf",
+    "698b064991c8d5b76d3b7a99",
+    "698b064991c8d5b76d3b7ba1",
+    "698b064991c8d5b76d3b7ad4",
+    "6989d492d0ca8969ace9fc96",
+    "6989d492d0ca8969ace9fdf2",
+    "698b064991c8d5b76d3b7a92",
+    "6989d5a276ef46c1946f80dd",
+    "6989d5a276ef46c1946f801b",
+    "6989d5a276ef46c1946f7f45",
+    "6989d5a276ef46c1946f8018",
+    "6989d492d0ca8969ace9fc9e",
+    "698b064991c8d5b76d3b79f2",
+    "698b064991c8d5b76d3b7d52",
+    "6989d492d0ca8969ace9fd58",
+    "698b064991c8d5b76d3b7bd7",
+    "698b064991c8d5b76d3b7c7a",
+    "6989d492d0ca8969ace9fde5",
+    "6989d492d0ca8969ace9fe5f",
+    "6989d492d0ca8969ace9fe59",
+    "6989d492d0ca8969ace9fdcf",
+    "6989d5a276ef46c1946f80f1",
+    "698b064991c8d5b76d3b7a64",
+    "698b064991c8d5b76d3b7d19",
+    "6989d5a276ef46c1946f7ff1",
+    "6989d5a276ef46c1946f7fed",
+    "698b064991c8d5b76d3b7bcb",
+    "698b064991c8d5b76d3b7b95"
   ],
   "judgedRelevantBecause": "Large executive desks with storage match an image of a wide professional office desk.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 42 total IDs from manualFilter (was 6).",
   "secondRater": null
 }

@@ -6,19 +6,59 @@
     "localPath": "eval/fixtures/_images/009.jpg"
   },
   "userQuery": null,
-  "manualFilter": { "$and": [
-    { "category": "Chairs" },
-    { "type": "Rocking Chair" }
-  ]},
+  "manualFilter": {
+    "$and": [
+      {
+        "category": "Chairs"
+      },
+      {
+        "type": "Rocking Chair"
+      }
+    ]
+  },
   "expectedMatchIds": [
     "6989d5a276ef46c1946f809b",
     "698b064991c8d5b76d3b7b35",
     "698b064991c8d5b76d3b799a",
     "698b064991c8d5b76d3b7bdb",
     "6989d492d0ca8969ace9fe6e",
-    "698aec0d885390de6bb404f4"
+    "698aec0d885390de6bb404f4",
+    "698aec0d885390de6bb404f5",
+    "698b064991c8d5b76d3b7aaf",
+    "698aec0d885390de6bb404f8",
+    "698b064991c8d5b76d3b7b39",
+    "698b064991c8d5b76d3b79ac",
+    "698b064991c8d5b76d3b7a9d",
+    "698b064991c8d5b76d3b7b28",
+    "698b064991c8d5b76d3b7d47",
+    "698b064991c8d5b76d3b7b9a",
+    "698b064991c8d5b76d3b7a3f",
+    "6989d492d0ca8969ace9fde8",
+    "698b064991c8d5b76d3b79fe",
+    "698b064991c8d5b76d3b7d43",
+    "698aec0d885390de6bb404fe",
+    "6989d5a276ef46c1946f7fc8",
+    "6989d492d0ca8969ace9fe6b",
+    "6989d492d0ca8969ace9fe46",
+    "698aec0d885390de6bb404fb",
+    "698b064991c8d5b76d3b7a8a",
+    "698aec0d885390de6bb404fc",
+    "6989d5a276ef46c1946f7f95",
+    "698aec0d885390de6bb404fd",
+    "6989d5a276ef46c1946f7f83",
+    "6989d5a276ef46c1946f8043",
+    "6989d5a276ef46c1946f80e9",
+    "6989d492d0ca8969ace9fd95",
+    "698b064991c8d5b76d3b7bc9",
+    "698b064991c8d5b76d3b7d01",
+    "698aec0d885390de6bb404f6",
+    "698aec0d885390de6bb404f7",
+    "6989d492d0ca8969ace9fddb",
+    "698aec0d885390de6bb404fa",
+    "698aec0d885390de6bb404f9",
+    "6989d5a276ef46c1946f7f9c"
   ],
   "judgedRelevantBecause": "Rocking chairs with curved runners match the classic rocking chair silhouette in the query image.",
-  "curatorNote": "Filter returned >6; first 6 taken.",
+  "curatorNote": "Filter returned >6; first 6 taken. Updated: 40 total IDs from manualFilter (was 6).",
   "secondRater": null
 }
