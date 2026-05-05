@@ -165,6 +165,34 @@ This fused query is the single input to both dense and lexical retrievers. The c
 
 **Why no external vector DB**: At 2,500 products and <50 ms query latency, an in-memory linear scan suffices. The interface (`RetrievalIndex` abstraction) is designed for a clean swap to HNSW or Qdrant when the catalog exceeds 50K.
 
+### 3.1 Why vectors.bin instead of a vector database
+
+`data/embeddings/v1/vectors.bin` is a packed `Float32Array` (~15 MB) containing 2,500 product embeddings (1,536-dim, from `text-embedding-3-small`). It ships committed to the repository alongside `manifest.json`, which maps `productId` to its content hash for drift detection.
+
+**Performance at scale 2,500**:
+- A linear cosine scan over 2,500 vectors in Node.js takes ~5 ms — faster than a network round-trip to any hosted vector database (Pinecone, Qdrant, Weaviate, pgvector: 20–50 ms).
+- HNSW and IVF algorithms inside vector databases only outperform brute-force above ~50K–100K vectors. Below that threshold, the index overhead exceeds the savings.
+
+**Zero infrastructure**:
+- No account signup, no docker-compose, no Kubernetes pods, no extra secrets beyond the Mongo URI.
+- Reviewers clone the repo, run `npm install`, and are ready in <5 seconds. Embeddings are pre-computed and committed.
+
+**Cost efficiency**:
+- Embeddings are pre-computed at build time (`npm run build:embeddings`) using the developer's API key — a one-time cost.
+- Reviewers pay only for their own search queries (VLM extraction, query embedding, reranking), never for catalog re-embedding.
+- Eliminates the per-request vector DB subscription or query pricing.
+
+**Runtime drift detection**:
+- At boot, each product fetched from Mongo is checked against `manifest.json`'s `contentHash`.
+- Products edited after the snapshot surface as `embedding_stale: true` in the Admin panel's diagnostics view and in the `/search` response.
+- No silent failures — stale embeddings are visible.
+
+**When to migrate to a vector database**:
+- **Catalog grows past ~50K products**: Linear scan exceeds ~50 ms p99; HNSW becomes cost-effective.
+- **Sustained QPS > 5**: Concurrent linear scans compete for CPU; a remote index isolates compute.
+- **Multi-tenant deployments**: Namespace isolation and tenant-specific indexes require external coordination.
+- **Seamless swap**: The `RetrievalIndex` interface (`apps/api/src/data/embeddings.ts`) can be replaced with a Qdrant or pgvector client in a single file — `pipeline.ts`, `rrf.ts`, and all routes remain unchanged.
+
 ### 4. Lexical Retrieval
 
 **Index**: In-memory BM25 index built at server startup using `wink-bm25-text-search`.
