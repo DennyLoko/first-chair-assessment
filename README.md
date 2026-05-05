@@ -52,7 +52,7 @@ The web UI accepts **the reviewer's API key** at runtime (stored in-memory on th
 Create `apps/api/.env` from `.env.example`:
 
 ```bash
-MONGO_URI=mongodb+srv://catalog-readonly:vcRvxWHQSKUEwd7V@catalog.sontifs.mongodb.net/catalog
+MONGO_URI=<connection-string-from-assessment>
 PROVIDER_API_KEY=sk-...
 EMBED_PROVIDER_ID=openai
 EMBED_MODEL_ID=text-embedding-3-small
